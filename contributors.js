@@ -61,7 +61,20 @@ const contributors = [
       instagram: "",
       linkedin: ""
     }
+  },
+  {
+    name: "Felix Perubahan",
+    username: "felixperubahan",
+    role: "Core Maintainer",
+    bio: "Menambahkan perubahan baru di repository utama untuk simulasi sync fork.",
+    skills: ["Git", "GitHub", "Collaboration"],
+    social: {
+      github: "https://github.com/felixnatanaelbutarbutar",
+      instagram: "",
+      linkedin: ""
+    }
   }
   // 👇 TEMPELKAN DATA PROFIL KAMU DI BAWAH INI (SEBELUM KURUNG TUTUP ] ) 👇
 
 ];
+
