@@ -51,7 +51,7 @@ const contributors = [
     }
   },
   {
-    name: "Siti Rahma",
+    name: "Rahel Pangaribuan",
     username: "sitirahma",
     role: "Open Source Enthusiast",
     bio: "First time trying GitHub Fork! Ternyata seru dan gampang dipelajari.",
@@ -63,5 +63,5 @@ const contributors = [
     }
   }
   // 👇 TEMPELKAN DATA PROFIL KAMU DI BAWAH INI (SEBELUM KURUNG TUTUP ] ) 👇
-  
+
 ];
