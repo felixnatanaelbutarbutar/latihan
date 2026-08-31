@@ -113,6 +113,46 @@ git push origin tambah-profil-namamu
 
 ---
 
+## 🖥️ Alternatif: Panduan Menggunakan GitHub Desktop (Tanpa Terminal / Klik GUI)
+
+Jika temanmu lebih suka menggunakan aplikasi grafis desktop (GUI) seperti **GitHub Desktop** daripada terminal/command line:
+
+### 1. Download & Buka GitHub Desktop
+- Unduh dan instal [GitHub Desktop](https://desktop.github.com/).
+- Buka aplikasinya dan login dengan akun GitHub.
+
+### 2. Fork & Clone Repository
+1. Buka repo utama ini di browser, lalu klik tombol **Fork** (atau bisa langsung dari GitHub Desktop: menu **File** -> **Clone repository**).
+2. Di tab **GitHub.com** atau **URL**, pilih/masukkan repository hasil fork kamu (misal: `USERNAME_KAMU/latihan`).
+3. Pilih folder lokal di komputermu, lalu klik **Clone**.
+4. *(Jika muncul pertanyaan: "How are you planning to use this fork?", pilih **To contribute to the parent project**).*
+
+### 3. Buat Branch Baru di GitHub Desktop
+1. Di bagian atas aplikasi, klik dropdown **Current Branch** (yang awalnya bertuliskan `main`).
+2. Klik tombol **New branch**.
+3. Beri nama branch, contoh: `tambah-profil-budi`, lalu klik **Create branch**.
+
+### 4. Edit File di Text Editor (VS Code / Notepad)
+1. Di GitHub Desktop, kamu bisa klik tombol **Open in Visual Studio Code** (atau buka folder secara manual).
+2. Buka file [`contributors.js`](./contributors.js) dan tambahkan data profilmu di bagian bawah array.
+3. Simpan file (`Ctrl + S`).
+
+### 5. Commit di GitHub Desktop
+1. Kembali ke aplikasi GitHub Desktop. Kamu akan melihat file `contributors.js` otomatis muncul di panel kiri bertanda centang hijau.
+2. Di bagian kiri bawah:
+   - Pada kotak **Summary (required)**, ketik: `feat: tambah profil Budi`
+3. Klik tombol biru **Commit to tambah-profil-...**.
+
+### 6. Publish / Push ke GitHub
+- Klik tombol biru **Publish branch** di bagian atas GitHub Desktop. Perubahanmu sekarang sudah ter-upload ke GitHub!
+
+### 7. Buat Pull Request (PR)
+1. Setelah push selesai, tombol di atas akan berubah menjadi **Preview Pull Request** atau **Create Pull Request**.
+2. Klik tombol **Create Pull Request**.
+3. Browser akan otomatis terbuka ke halaman Pull Request GitHub. Beri keterangan singkat dan klik **Create pull request**! 🎉
+
+---
+
 ## 🔄 Tips Tambahan: Sinkronisasi Fork (Sync Upstream)
 
 Jika repository utama sudah mendapat update baru dari teman lain dan repo fork milikmu tertinggal:
