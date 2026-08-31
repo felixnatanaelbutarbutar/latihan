@@ -54,7 +54,7 @@ const contributors = [
     name: "Rahel Pangaribuan",
     username: "sitirahma",
     role: "Open Source Enthusiast",
-    bio: "First time trying GitHub Fork! Ternyata seru dan gampang dipelajari.",
+    bio: "bingung",
     skills: ["JavaScript", "Python", "Git"],
     social: {
       github: "https://github.com",
